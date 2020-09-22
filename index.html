@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="flex flex-column">
+      <h1 class="heading flex flex-center">Etch-a-Sketch</h1>
+      <div  class="coverWrap flex flex-center">
+        <div class="inputSection flex flex-around"></div>
+          <label for="numberOfSquares" id= 'inputWrap' class="flex flex-column">
+            No Of Rows / Columns :
+            <input type="number" name="" id="numberOfSquares" />
+          </label>
+          
+          <label for="color"  id= 'inputWrap' class="flex flex-column"
+            >Sketch Color:
+            <input type="color" name="" id="color" />
+          </label>
+          <button type="submit" class="flex flex-center" id="submit">Submit</button>
+          <button class="clearGrid flex flex-center"><a href="index.html">Clear Grid</a></button>
+        </form>
+      </div>
+      <div class="container"></div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
